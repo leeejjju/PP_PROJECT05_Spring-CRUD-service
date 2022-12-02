@@ -9,7 +9,6 @@
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://walab.handong.edu:3306/p2_22100579?useSSL=FALSE" />
-        <!--"jdbc:mysql://walab.handong.edu:3306/p2_22100579?useSSL=fale"-->
         <property name="username" value="p2_22100579" />
         <property name="password" value="yoo1ahBiec" />
     </bean>

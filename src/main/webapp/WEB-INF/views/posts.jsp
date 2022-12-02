@@ -60,6 +60,7 @@
         <th>Writer</th>
         <th>Content</th>
         <th>Regdate</th>
+        <th>View</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -70,6 +71,9 @@
             <td>${u.writer}</td>
             <td>${u.content}</td>
             <td>${u.regdate}</td>
+            <td>
+                <a href="viewPost/${u.seq}">View</a>
+            </td>
             <td>
                 <a href="editpost/${u.seq}">Edit</a>
             </td>
