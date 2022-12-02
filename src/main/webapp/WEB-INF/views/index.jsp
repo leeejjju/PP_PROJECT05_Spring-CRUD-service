@@ -11,7 +11,10 @@
     <title>leeejjju - spring crud test</title>
   </head>
   <body>
-  Hello World!!!!!!!!!
+  <p2>Hello World!!!!!!!!!</p2><br>
+
+  <p>server time : ${serverTime}</p><br>
+  <a href="board/list">jump to list</a>
 
   </body>
 </html>

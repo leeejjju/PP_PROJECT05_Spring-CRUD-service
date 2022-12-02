@@ -10,14 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf71187-120c-4ac5-ac87-2baa898e4cc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/PP_PROJECT05_Spring_CRUD_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PP_PROJECT05_Spring_CRUD_service_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PP_PROJECT05_Spring-CRUD-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PP_PROJECT05_Spring-CRUD-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,10 +79,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Munjeonbakdea/Assignments/2022-2/PracicalProject/PP_PROJECT05_Spring-CRUD-service/src/main/webapp/WEB-INF",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "bccbe2bc9ee90c350274d06982845db7"
+    "spring.configuration.checksum": "9c8c25ccd248ff1f37a9bf87edcbc32e"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,6 +97,8 @@
       <recent name="C:\Munjeonbakdea\Assignments\2022-2\PracicalProject\PP_PROJECT05_Spring-CRUD-service\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Munjeonbakdea\Assignments\2022-2\PracicalProject\PP_PROJECT05_Spring-CRUD-service\src\main\webapp\WEB-INF\views\board" />
+      <recent name="C:\Munjeonbakdea\Assignments\2022-2\PracicalProject\PP_PROJECT05_Spring-CRUD-service\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Munjeonbakdea\Assignments\2022-2\PracicalProject\PP_PROJECT05_Spring-CRUD-service\src\main\webapp" />
       <recent name="C:\Munjeonbakdea\Assignments\2022-2\PracicalProject\PP_PROJECT05_Spring-CRUD-service\web\WEB-INF\views" />
     </key>
@@ -180,7 +202,11 @@
       <updated>1669734867735</updated>
       <workItem from="1669734870750" duration="3240000" />
       <workItem from="1669738707178" duration="5799000" />
-      <workItem from="1669795284758" duration="719000" />
+      <workItem from="1669795284758" duration="1095000" />
+      <workItem from="1669819003512" duration="2904000" />
+      <workItem from="1669901749119" duration="598000" />
+      <workItem from="1669907278436" duration="11488000" />
+      <workItem from="1669938959477" duration="989000" />
     </task>
     <servers />
   </component>
