@@ -44,27 +44,13 @@ public class BoardDAO {
     //D
     public int deleteBoard(int seq) {
         System.out.println("===> jdbcTemplate으로 deleteBoard() 기능 처리");
-
-//        String sql = "delete from BOARD  where seq=" + seq;
-//        return jdbcTemplate.update(sql);
-
         return jdbcTemplate.update(BOARD_DELETE, new Object[]{seq});
-
-
     }
 
     //U
     public int updateBoard(BoardVO vo) {
         System.out.println("===> jdbcTemplate으로 updateBoard() 기능 처리");
-
-//        String sql = "update BOARD set "
-//                + "title='" + vo.getTitle() + "',"
-//                + "writer='" + vo.getWriter() + "',"
-//                + "content='" + vo.getContent() + "'"
-//                + " where seq=" + vo.getSeq();
-//
-//        return jdbcTemplate.update(sql);
-          return jdbcTemplate.update(BOARD_UPDATE, new Object[]{vo.getTitle(), vo.getWriter(), vo.getContent(), vo.getSeq()});
+        return jdbcTemplate.update(BOARD_UPDATE, new Object[]{vo.getTitle(), vo.getWriter(), vo.getContent(), vo.getSeq()});
     }
 
 
@@ -81,25 +67,19 @@ public class BoardDAO {
         }
     }
 
-
     //R
     public BoardVO getBoard(int seq) {
-        BoardVO one = new BoardVO();
         System.out.println("===> jdbcTemplate으로 getBoard() 기능 처리");
-
         String sql = "select * from BOARD  where seq=" + seq;
         return jdbcTemplate.queryForObject(sql, new BoardRowMapper());
     }
-
 
     //Rrrrr
     public List<BoardVO> getBoardList(){
         System.out.println("===> jdbcTemplate으로 getBoardList() 기능 처리");
         String sql = "select * from BOARD ORDER BY regdate DESC";
         return jdbcTemplate.query(sql, new BoardRowMapper());
-
     }
-
 
 
 

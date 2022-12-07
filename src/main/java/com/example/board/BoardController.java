@@ -7,15 +7,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import javax.jws.WebParam;
 
 @Controller
 public class BoardController {
     @Autowired
     BoardService boardService;
-
-
     //BoardDAO boardDAO;
 
     @RequestMapping(value = "/board/list", method = RequestMethod.GET)
@@ -75,7 +72,5 @@ public class BoardController {
         }
         return "redirect:../list";
     }
-
-
 
 }

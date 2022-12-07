@@ -14,6 +14,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
@@ -35,13 +37,8 @@
       <artifactId>spring-jdbc</artifactId>
       <version>5.3.23</version>
     </dependency>
-
-
-
-
-
-
   </dependencies>
+
   <build>
     <finalName>PP_PROJECT05_Spring-CRUD-service</finalName>
     <pluginManagement>
